@@ -49,6 +49,7 @@ module.exports =
         editor = atom.workspace.getActiveTextEditor()
 
         word = options.text || (editor.getSelectedText() or editor.getWordUnderCursor()).replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')
+        word = word.replace(/-([a-z])/, (m, v) => v.toUpperCase());
         file_extension = "*." + editor.getPath().split('.').pop()
 
         scan_regex = []

@@ -1,37 +1,37 @@
 {
-    "name": "goto-definition",
-    "version": "1.1.19",
-    "description": "Goto definition.",
-    "main": "./lib/goto-definition",
-    "dependencies": {
-        "atom-space-pen-views": "^2.1.1"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/faceair/atom-goto-definition.git"
-    },
-    "author": "faceair",
-    "license": "GPL",
-    "engines": {
-        "atom": ">0.50.0"
-    },
-    "bugs": {
-        "url": "https://github.com/faceair/atom-goto-definition/issues"
-    },
-    "homepage": "https://github.com/faceair/atom-goto-definition#readme",
-    "apmInstallSource": {
-        "type": "git",
-        "source": "https://github.com/WesleyLuk90/atom-goto-definition",
-        "sha": "60118c14b7af81d97a6bc25679d0035edadd07fd"
-    },
-    "providedServices": {
-        "hyperclick.provider": {
-            "versions": {
-                "0.0.0": "getProvider"
-            }
-        }
+  "name": "goto-definition",
+  "version": "1.1.19",
+  "description": "Goto definition.",
+  "main": "./lib/goto-definition",
+  "dependencies": {
+    "atom-space-pen-views": "^2.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faceair/atom-goto-definition.git"
+  },
+  "author": "faceair",
+  "license": "GPL",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "bugs": {
+    "url": "https://github.com/faceair/atom-goto-definition/issues"
+  },
+  "homepage": "https://github.com/faceair/atom-goto-definition#readme",
+  "apmInstallSource": {
+    "type": "git",
+    "source": "https://github.com/WesleyLuk90/atom-goto-definition",
+    "sha": "f3c5ce61e84d0091371d15a1de8ab7550fc0fd8d"
+  },
+  "providedServices": {
+    "hyperclick.provider": {
+      "versions": {
+        "0.0.0": "getProvider"
+      }
     }
+  }
 }

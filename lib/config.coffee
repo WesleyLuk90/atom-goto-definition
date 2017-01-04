@@ -5,6 +5,8 @@ module.exports =
       "(^|\\s)function\\s+{word}\\s*\\("
       "(^|\\s){word}\\([\\s\\S]*?\\)\\s*{"  # ES6
       "(^|\\s)class\\s+{word}(\\s|$)"
+      "(service|directive)\\s*\\(\\s*'{word}'\\s*," # angular
+      "(service|directive)\\s*\\(\\s*\"{word}\"\\s*," # angular
     ]
     type: ["*.jsx", "*.js", "*.html"]
 
@@ -42,7 +44,7 @@ module.exports =
       "(^|\\s)(static\\s+)?((public|private|protected)\\s+)?(static\\s+)?function\\s+{word}\\s*\\("
     ]
     type: ["*.php"]
-    
+
   Hack:
     regex: [
       "(^|\\s)class\\s+{word}(\\s|{|$)"
